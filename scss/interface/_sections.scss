@@ -1,0 +1,129 @@
+//////////////////////////////////////////////////////////////////////////
+//
+//
+//             sections
+//
+//
+//////////////////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////////////////
+//             variables
+//////////////////////////////////////////////////////////////////////////
+
+$title: ".title";
+
+#introduction{
+    height: 72vh;
+}
+
+#performing-experiences{
+    #experiences{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        .column{
+            width: 49%;
+        }
+
+        .experience{
+            padding: 2rem;
+            margin-bottom: 1.5rem;
+            border-radius: 10px;
+            box-sizing: border-box;
+
+            p{
+                font-family: "Yessica";
+                font-size: 1.5rem;
+            }
+
+            .subtitle{
+                font-family: "Sporting Grotesque Bold";
+                font-size: 1rem;
+            }
+
+            &-list{
+                p{
+                    font-size: 1rem;
+
+                    span{
+                        font-family: "Sporting Grotesque Regular";
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#studies{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Yessica";
+
+    .column{
+        width: 45%;
+    }
+
+    h1{
+        text-align: right;
+    }
+
+    .title{
+        color: white;
+        padding: 1.5rem;
+        font-size: 1.3rem;
+        
+        &-left{
+            margin-left: -4rem;
+            padding-left: 4rem;
+            border-top-right-radius: 40px;
+            border-bottom-right-radius: 40px;
+        }
+
+        &-right{
+            margin-right: -6.5rem;
+            padding-right: 4rem;
+            border-top-left-radius: 40px;
+            border-bottom-left-radius: 40px;
+        }
+
+        &-primary{
+            background-color: $primary;
+        }
+
+        &-secondary{
+            background-color: $secondary;
+        }
+
+        &-tertiary{
+            background-color: $tertiary;
+        }
+    }
+
+    #studies-list{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+        margin-left: -4rem;
+        padding: 2.5rem;
+        padding-left: 4rem;
+        
+        .study{
+            margin-bottom: 2rem;
+
+            p{
+                font-family: "Yessica";
+    
+                span{
+                    font-family: "Futura";
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,346 @@
+@font-face {
+  font-family: "Futura Medium";
+  src: url(/fonts/Futura.ttc);
+}
+
+@font-face {
+  font-family: "Sporting Grotesque Regular";
+  src: url(/fonts/SportingGrotesque-Regular.otf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Sporting Grotesque Bold";
+  src: url(/fonts/SportingGrotesque-Bold.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Yessica";
+  src: url(/fonts/Yessica-Regular.otf);
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+nav li a {
+  color: #006D77;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Sporting Grotesque Regular";
+}
+
+h1 {
+  font-family: "Sporting Grotesque Regular";
+  text-transform: uppercase;
+  color: #006D77;
+}
+
+h1 span {
+  display: block;
+  font-size: 2rem;
+}
+
+#introduction {
+  height: 72vh;
+}
+
+#performing-experiences #experiences {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+#performing-experiences #experiences .column {
+  width: 49%;
+}
+
+#performing-experiences #experiences .experience {
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#performing-experiences #experiences .experience p {
+  font-family: "Yessica";
+  font-size: 1.5rem;
+}
+
+#performing-experiences #experiences .experience .subtitle {
+  font-family: "Sporting Grotesque Bold";
+  font-size: 1rem;
+}
+
+#performing-experiences #experiences .experience-list p {
+  font-size: 1rem;
+}
+
+#performing-experiences #experiences .experience-list p span {
+  font-family: "Sporting Grotesque Regular";
+  text-transform: uppercase;
+}
+
+#studies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: "Yessica";
+}
+
+#studies .column {
+  width: 45%;
+}
+
+#studies h1 {
+  text-align: right;
+}
+
+#studies .title {
+  color: white;
+  padding: 1.5rem;
+  font-size: 1.3rem;
+}
+
+#studies .title-left {
+  margin-left: -4rem;
+  padding-left: 4rem;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+#studies .title-right {
+  margin-right: -6.5rem;
+  padding-right: 4rem;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+#studies .title-primary {
+  background-color: #006D77;
+}
+
+#studies .title-secondary {
+  background-color: #83C5BE;
+}
+
+#studies .title-tertiary {
+  background-color: #E29578;
+}
+
+#studies #studies-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  margin-left: -4rem;
+  padding: 2.5rem;
+  padding-left: 4rem;
+}
+
+#studies #studies-list .study {
+  margin-bottom: 2rem;
+}
+
+#studies #studies-list .study p {
+  font-family: "Yessica";
+}
+
+#studies #studies-list .study p span {
+  font-family: "Futura";
+}
+
+.badge-outlined {
+  border: 3px solid;
+  border-radius: 20px;
+  width: 7rem;
+  font-family: "Futura";
+  text-align: center;
+}
+
+.badge-outlined.badge-outlined-white {
+  border-color: white;
+  color: white;
+}
+
+.badge-outlined.badge-outlined-primary {
+  border-color: #006D77;
+  color: #006D77;
+}
+
+.bg-primary {
+  background-color: #006D77;
+  color: white;
+}
+
+.bg-secondary {
+  background-color: #83C5BE;
+  color: white;
+}
+
+.bg-tertiary {
+  background-color: #E29578;
+  color: white;
+}
+
+.bg-tertiaryLight {
+  background-color: #FFDDD2;
+}
+
+.bg-secondaryLight {
+  background-color: #EDF6F9;
+}
+
+.bg-glassmorph {
+  background: #83c5be;
+  background: radial-gradient(at 47% 33%, #83c5bf91 0, transparent 59%), radial-gradient(at 82% 65%, #FFDDD2 0, transparent 55%);
+}
+
+.bg-glassmorph div {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+}
+
+.bg-outlined {
+  background: transparent;
+}
+
+.bg-outlined-primary {
+  border: 3px solid #006D77;
+  color: #006D77;
+}
+
+.bg-outlined-secondary {
+  border: 3px solid #83C5BE;
+}
+
+.bg-outlined-tertiary {
+  border: 3px solid #E29578;
+}
+
+.bg-outlined-tertiaryLight {
+  border: 3px solid #FFDDD2;
+}
+
+.bg-outlined-secondaryLight {
+  border: 3px solid #EDF6F9;
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  padding: 1rem;
+  width: 100%;
+  background-color: #006D77;
+  text-align: center;
+  font-family: "Yessica";
+  color: white;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding-bottom: 0;
+  background-color: #EDF6F9;
+}
+
+body .container {
+  padding: 4rem;
+}
+
+body .picture {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 25vw;
+  height: auto;
+  min-height: 20vh;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+body .picture img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 3rem;
+}
+
+body .intro {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 70vh;
+  width: 45vw;
+  padding: 4rem;
+  background-color: #FFDDD2;
+  text-align: right;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  border-top-left-radius: 200px;
+  border-bottom-left-radius: 200px;
+}
+
+body .intro > div:first-of-type {
+  color: #006D77;
+  font-size: 3rem;
+  font-family: "Sporting Grotesque Regular";
+  text-transform: uppercase;
+}
+
+body .intro > div:first-of-type span {
+  display: block;
+}
+
+body .intro p {
+  margin-bottom: 0;
+  font-size: 2rem;
+  font-family: "Yessica";
+  color: white;
+}
+
+body .intro p:last-of-type {
+  margin-top: 0;
+}

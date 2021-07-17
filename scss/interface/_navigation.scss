@@ -1,0 +1,20 @@
+//////////////////////////////////////////////////////////////////////////
+//
+//
+//             navigation
+//
+//
+//////////////////////////////////////////////////////////////////////////
+
+nav {
+    li{
+        display: inline-block;
+        margin-right: 2rem;
+        a{
+            color: $primary;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-family: "Sporting Grotesque Regular";
+        }
+    }
+}
