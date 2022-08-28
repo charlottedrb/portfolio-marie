@@ -32,63 +32,10 @@ body{
     background-color: $secondaryLight;
 
     .container{
-        padding: $padding;
-    }
+        padding: 2rem;
 
-    .picture{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        width: 25vw;
-        height: auto;
-        min-height: 20vh;
-        transform: translate(-50%, -50%);
-        z-index: 2;
-        
-        img{
-            width: 100%;
-            object-fit: cover;
-            border-radius: 3rem;
-        }
-    }
-
-    .intro{
-        position: absolute;
-        top: 50%;
-        right: 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        height: 70vh;
-        width: 45vw;
-        padding: $padding;
-        background-color: $tertiaryLight;
-        text-align: right;
-        box-sizing: border-box;
-        transform: translateY(-50%);
-        border-top-left-radius: 200px;
-        border-bottom-left-radius: 200px;
-
-        & > div:first-of-type {
-            color: $primary;
-            font-size: 3rem;
-            font-family: "Sporting Grotesque Regular";
-            text-transform: uppercase;
-
-            span{
-                display: block;
-            }
-        }
-
-        p{
-            margin-bottom: 0;
-            font-size: 2rem;
-            font-family: "Yessica";
-            color: white;
-
-            &:last-of-type{
-                margin-top: 0;
-            }
+        @include responsive(md) {
+            padding: $padding;
         }
     }
 }
